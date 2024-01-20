@@ -1,0 +1,36 @@
+#root {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.productContainer {
+  height: 55%;
+  background-color: #e2eaef;
+  padding: 5% 15%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.itemRow {
+  display: flex;
+  position: relative;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.product-name {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-bottom: 0;
+}

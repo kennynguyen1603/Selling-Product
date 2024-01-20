@@ -1,0 +1,30 @@
+.star-rating {
+  margin: 5px 0;
+}
+
+.star {
+  font-size: 1.25rem;
+  color: gray;
+  position: relative;
+  cursor: pointer;
+  margin-right: 5px;
+  white-space: nowrap; /* Ngăn chặn văn bản từ việc gãy xuống dòng mới */
+  overflow: hidden; /* Ẩn văn bản tràn ra ngoài phần tử chứa */
+  text-overflow: ellipsis; /* Thêm dấu ellipsis khi văn bản tràn */
+  width: 100%;
+}
+
+.star.filled,
+.star.half {
+  color: gold;
+}
+
+.star.star.half::before {
+  content: "★";
+  position: absolute;
+  right: 0;
+  width: 50%;
+  color: gray;
+  overflow: hidden;
+  direction: rtl;
+}

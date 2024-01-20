@@ -1,0 +1,347 @@
+.product-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 20px 0px;   */
+}
+
+.productImage {
+  height: 120px;
+  width: 100%;
+}
+
+.productImage img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.thumb-wrapper {
+  padding: 25px 15px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 1400px) {
+  /* .container {
+    max-width: 1320px;
+  } */
+  .col-xxl-1 {
+    width: 8.33%;
+  }
+  .col-xxl-2 {
+    width: 16.66%;
+  }
+  .col-xxl-3 {
+    width: 25%;
+  }
+  .col-xxl-4 {
+    width: 31%;
+  }
+  .col-xxl-5 {
+    width: 41.66%;
+  }
+  .col-xxl-6 {
+    width: 50%;
+  }
+  .col-xxl-7 {
+    width: 58.33%;
+  }
+  .col-xxl-8 {
+    width: 66.66%;
+  }
+  .col-xxl-9 {
+    width: 75%;
+  }
+  .col-xxl-10 {
+    width: 83.33%;
+  }
+  .col-xxl-11 {
+    width: 91.66%;
+  }
+  .col-xxl-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  /* .container {
+    max-width: 1140px;
+  } */
+  .col-xl-1 {
+    width: 8.33%;
+  }
+  .col-xl-2 {
+    width: 16.66%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-4 {
+    width: 31%;
+  }
+  .col-xl-5 {
+    width: 41.66%;
+  }
+  .col-xl-6 {
+    width: 50%;
+  }
+  .col-xl-7 {
+    width: 58.33%;
+  }
+  .col-xl-8 {
+    width: 66.66%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-10 {
+    width: 83.33%;
+  }
+  .col-xl-11 {
+    width: 91.66%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+  .col-l-1 {
+    width: 8.33%;
+  }
+  .col-l-2 {
+    width: 16.66%;
+  }
+  .col-l-3 {
+    width: 25%;
+  }
+  .col-l-4 {
+    width: 30%;
+  }
+  .col-l-5 {
+    width: 41.66%;
+  }
+  .col-l-6 {
+    width: 50%;
+  }
+  .col-l-7 {
+    width: 58.33%;
+  }
+  .col-l-8 {
+    width: 66.66%;
+  }
+  .col-l-9 {
+    width: 75%;
+  }
+  .col-l-10 {
+    width: 83.33%;
+  }
+  .col-l-11 {
+    width: 91.66%;
+  }
+  .col-l-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* .container {
+    max-width: 720px;
+  } */
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* .container {
+    max-width: 540px;
+  } */
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+.col {
+  cursor: pointer;
+  width: 23%;
+  padding: 0 15px;
+  position: relative;
+}
+
+/* .col:hover .thumb-wrapper {
+  opacity: 0.5;
+} */
+
+.col .thumb-wrapper:hover {
+  transition: transform 0.3s ease;
+  scale: 1.2;
+  opacity: 1;
+  z-index: 10;
+}
+
+.originalPrice {
+  text-decoration: line-through;
+  color: #a9a9a9;
+  display: inline-block; /* Cần thiết để áp dụng text-decoration */
+  position: relative; /* Cần thiết để áp dụng text-decoration */
+}
+
+.originalPrice::after {
+  content: ""; /* Nội dung pseudo-element, để trống */
+  position: absolute; /* Vị trí tuyệt đối so với phần tử price */
+  left: 0; /* Bắt đầu từ cạnh trái của phần tử price */
+  right: 0; /* Kéo dài đến cạnh phải của phần tử price */
+  top: 50%; /* Đặt ở giữa phần tử theo chiều dọc */
+  border-top: 1px solid grey; /* Tạo đường gạch ngang */
+  transform: translateY(-50%);
+}
+
+.product-name {
+  white-space: nowrap; /* Ngăn chặn văn bản từ việc gãy xuống dòng mới */
+  overflow: hidden; /* Ẩn văn bản tràn ra ngoài phần tử chứa */
+  text-overflow: ellipsis; /* Thêm dấu ellipsis khi văn bản tràn */
+  width: 100%;
+}
+
+.product-price {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #212529;
+  margin: 5px 0;
+}
+
+.product-price .originalPrice {
+  margin-right: 5px;
+}
+
+.cart .btn {
+  color: #7ac400;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: none;
+  border: 1px solid #7ac400;
+  line-height: 16px;
+  border-radius: 15px;
+  margin-top: 10%;
+  white-space: nowrap; /* Ngăn chặn văn bản từ việc gãy xuống dòng mới */
+  overflow: hidden; /* Ẩn văn bản tràn ra ngoài phần tử chứa */
+  text-overflow: ellipsis; /* Thêm dấu ellipsis khi văn bản tràn */
+  width: 100%;
+}
+
+.cart:hover .btn {
+  color: #fff;
+  background: #7ac400;
+}
